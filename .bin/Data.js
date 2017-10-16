@@ -1,5 +1,5 @@
 __betelgeuse__getJSONP({
     "index": {
-        "index": ""
+        "index": null
     }
 });

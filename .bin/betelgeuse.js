@@ -138,4 +138,4 @@ exports.getModel = function () {
             console.log('Nothing new! Current Version:', toString(VERSION));
         }
     });
-})(window, '', getCurrentVersion());
+})(window, 'https://rawgit.com/GabrielCTroia/betelgeuse-bundle-starter', getCurrentVersion());
