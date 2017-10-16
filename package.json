@@ -1,0 +1,19 @@
+{
+  "name": "betelgeuse-bundle-starter",
+  "version": "0.0.0",
+  "description": "Betelgeuse Bundle Starter",
+  "main": "./bin/betelgeuse.js",
+  "types": "./bin/betelgeuse.d.ts",
+  "repository": "https://github.com/GabrielCTroia/betelgeuse-bundle-starter.git",
+  "cdn": "https://rawgit.com/GabrielCTroia/betelgeuse-bundle-starter",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node ./node_modules/betelgeuse/dist/index.js compile .",
+    "compile:sdks": "node ./node_modules/betelgeuse/dist/index.js compile-sdks ."
+  },
+  "author": "Gabriel C. Troia",
+  "license": "MIT",
+  "devDependencies": {
+    "beetlejuice": "git+https://github.com/GabrielCTroia/beetlejuice.git#v0.0.17"
+  }
+}
