@@ -1,7 +1,21 @@
 declare namespace Betelgeuse {
     interface Data {
         "index": {
-            "index": null | undefined;
+            "default": {
+                "jackpocket_intro": string;
+            };
+            "pages": {
+                "invite": {
+                    "title": string;
+                    "call_to_action_button": string;
+                    "cards": {
+                        "how_does_pools_work": {
+                            "title": string;
+                            "content": string;
+                        };
+                    };
+                };
+            };
         };
     }
 }
