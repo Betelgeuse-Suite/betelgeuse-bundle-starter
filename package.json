@@ -2,8 +2,8 @@
   "name": "betelgeuse-bundle-starter",
   "version": "0.0.0",
   "description": "Betelgeuse Bundle Starter",
-  "main": "./bin/betelgeuse.js",
-  "types": "./bin/betelgeuse.d.ts",
+  "main": "./.bin/betelgeuse.js",
+  "types": "./.bin/betelgeuse.d.ts",
   "repository": "https://github.com/GabrielCTroia/betelgeuse-bundle-starter.git",
   "cdn": "https://rawgit.com/GabrielCTroia/betelgeuse-bundle-starter",
   "scripts": {
