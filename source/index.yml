@@ -3,4 +3,22 @@
 # If you don't know what a YAML file, go to '
 #   http://docs.ansible.com/ansible/latest/YAMLSyntax.html for a quick intro;
 
-index: 
+default:
+  jackpocket_intro: >
+    "Jackpocket allows you to play the lottery on your phone through a licenced retailer."
+  
+pages:
+  invite:
+    title: >
+      "Welcome to the pool party!"
+    call_to_action_button: >
+      "Join Pool Party"
+    cards:
+      how_does_pools_work:
+        title: >
+          "How does pools work?"
+        content: >
+          "Jackpocket Pools allows users to play Mega Millions and Powerball in real-time with their friends and have big winnings!"
+
+  
+
