@@ -1,6 +1,6 @@
 {
   "name": "betelgeuse-bundle-starter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Betelgeuse Bundle Starter",
   "main": "./bin/betelgeuse.js",
   "types": "./bin/betelgeuse.d.ts",
